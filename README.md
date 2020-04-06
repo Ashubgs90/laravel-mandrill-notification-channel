@@ -5,7 +5,7 @@
 [![Coverage Status](https://coveralls.io/repos/github/techinasia/laravel-mandrill-notification-channel/badge.svg)](https://coveralls.io/github/techinasia/laravel-mandrill-notification-channel)
 [![StyleCI Status](https://styleci.io/repos/75810155/shield)](https://styleci.io/repos/75810155)
 
-> Use Laravel 5.3 notifications to send mail via Mandrill.
+> Use Laravel 6 notifications to send mail via Mandrill.
 
 ## Contents
 - [Installation](#installation)

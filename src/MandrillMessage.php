@@ -6,6 +6,7 @@ use DateTime;
 use DateTimeZone;
 use Illuminate\Contracts\Support\Arrayable;
 use Illuminate\Support\Arr;
+use Illuminate\Support\Str;
 
 class MandrillMessage implements Arrayable
 {
@@ -42,7 +43,7 @@ class MandrillMessage implements Arrayable
 
         $value = ! empty($arguments) ? $arguments[0] : '';
 
-        Arr::set($this->message, snake_case($name), $value);
+        Arr::set($this->message, Str::snake($name), $value);
 
         return $this;
     }
